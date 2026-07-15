@@ -1,0 +1,22 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Repositories and archives
+*.zip
+*.tar.gz
+*.tgz
+
+# Logs
+*.log
+framework.jsonl
+agent-debug.jsonl
+transcript.log
+artifacts/
+tmp/

@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Repository-specific ignores
+Stockfish-master/
+ZIP/
+ZIP FILES/
+zOthers works/
+*.zip
+*.tar.gz
+*.tgz
+
+# Log and event data
+*.log
+framework.jsonl
+agent-debug.jsonl
+transcript.log
+artifacts/
+tmp/

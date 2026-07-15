@@ -1,0 +1,29 @@
+# Python virtualenvs & build caches
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.venv/
+**/venv/
+
+# Logs and local artifacts
+**/*.log
+**/framework.jsonl
+**/agent-debug.jsonl
+**/transcript.log
+**/artifacts/
+**/tmp/
+
+# Exclude sensitive fixture files with mock API keys to prevent secret scanning blocks
+**/secret.txt
+**/api_keys.txt
+**/credentials.json
+
+# Repository level exclusions
+Stockfish-master/
+ZIP/
+ZIP FILES/
+*.zip
+*.tar.gz
+*.tgz
